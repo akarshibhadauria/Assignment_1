@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Assignment</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            width: 80%;
+            margin: auto;
+ }
+ .box{
+    background-color: black;
+    color: azure;
+    font-size: 40px;
+    padding: 40px;
+    border-radius: 10px;
+ }
+ .a{
+    grid-column:1/3;
+ }
+ .b{
+    grid-column:3/5;
+ }
+ .c{
+    grid-column: 1/2;
+ }
+ .d{
+    grid-column: 2/5;
+ }
+ .e{
+    grid-column: 1/5;
+ }
+    </style>
+<body>
+    
+    <div class="container">
+        <div class="box a">A</div>
+        <div class="box b">B</div>
+        <div class="box c">C</div>
+        <div class="box d">D</div>
+        <div class="box e">E</div>
+    </div>
+</body>
+</html>
