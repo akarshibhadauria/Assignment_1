@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 3</title>
+    <style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f8f4f6;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    padding:50px 0;
+}
+
+.sub-heading{
+    color:#666;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.main-heading{
+    font-size:50px;
+    font-weight:bold;
+    margin-bottom:50px;
+}
+
+.partners{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:25px;
+}
+
+.card{
+    background:white;
+    height:130px;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0px 2px 8px rgba(0,0,0,0.08);
+}
+
+.card img{
+    width:90px;
+    height:auto;
+    object-fit:contain;
+}
+
+.btn{
+    margin-top:50px;
+}
+
+.btn button{
+    padding:15px 30px;
+    border:1px solid red;
+    background:white;
+    color:red;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.btn button:hover{
+    background:red;
+    color:white;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+
+    <h3 class="sub-heading">
+        Have a Dream Company In Mind?
+    </h3>
+
+    <h1 class="main-heading">
+        Meet Our 700+ Hiring Partners
+    </h1>
+
+    <div class="partners">
+
+        <div class="card">
+            <img src="https://img.magicpin.com/2963367_logo_0.png" alt="EATFIT">
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Dream11_Logo_2023.png/1280px-Dream11_Logo_2023.png" alt="dream 11">
+        </div>
+
+        <div class="card">
+            <img src="data:image/png;base64,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" alt="urbanpiper">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmoycep8331PoMq08z4GaBPOyfnVqctgkQqinEyPXy2Q&s=10" alt="airmeet">
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Paytm_Logo.png" alt="paytm">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoR4grPjKcBEEvDtf2Wtj_54PMdVUaboU3SnMyXDv4fQ&s=10" alt="whitehat">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzskwvm-0pcqAkbfyZuLgDIetwReyAze6G0CXkZ4QH9Q&s=10" alt="bharatpay">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQapJtdij_ofiEC_B9hfwYxFE1jwIcbCRGSokeCEk9oiA&s=10" alt="swiggy">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv7yGx6UUZGINvFo67ls5psYPRSVKeUGciQ60Y74nFmg&s=10" alt="vyapar">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7LsvHlEZS6dZnvyHXpFhrfSLddqqLiT4-BiKMT5P7w&s" alt="pagarbook">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjU8HM3p-jnFqshy7Q5U9GS2_GHLzXYohwF7w6qQFyyw&s=10" alt="smallcase">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcus28uAn78izQpSrHRp-LWkEqnQFceh5oGnJJh3T-qA&s=10" alt="sharechat">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlyyGo8c1PWley2mZ5U96zCPHDWyOnbZxKmSHaSlcPvA&s=10" alt="ola">
+        </div>
+
+        <div class="card">
+            <img src="https://crystalpng.com/wp-content/uploads/2025/05/ibm-logo.png" alt="IBM">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcgVh2IYR0Qujf8R3FpZoFffufrkqZio5GjTb60Ri7nw&s=10" alt="byjus">
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkw_09W5bGTM6qLBbgjBa5DgfIYYtcAtxZOTEWjnsbnQ&s=10" alt="ajio">
+        </div>
+
+    </div>
+
+    <div class="btn">
+        <button>SEE MORE PARTNERS ></button>
+    </div>
+
+</div>
+    
+</body>
+</html>
