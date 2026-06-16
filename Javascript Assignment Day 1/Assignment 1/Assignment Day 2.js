@@ -69,7 +69,7 @@
 //  }
 //  console.log(pattern); 
 //  }
-
+//Question 21:
 // let n = 5;
 
 // for (let i = 1; i <= n; i++) {
@@ -81,15 +81,15 @@
 
 //     console.log(pattern);
 // }
+// Question 22:
+// let n = 5;
 
-let n = 5;
+// for (let i = n; i >= 1; i--) {
+//     let pattern = "";
 
-for (let i = n; i >= 1; i--) {
-    let pattern = "";
+//     for (let j = n; j >= n - i + 1; j--) {
+//         pattern += j + " ";
+//     }
 
-    for (let j = n; j >= n - i + 1; j--) {
-        pattern += j + " ";
-    }
-
-    console.log(pattern);
-}
+//     console.log(pattern);
+// }
