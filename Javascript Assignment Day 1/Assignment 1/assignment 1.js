@@ -110,7 +110,7 @@ console.log(result)
 
 // Question 8: Temperature Check
 
-let temperature = 10;
+let temperature = 25;
 
 if (temperature > 40) {
     console.log(" Very Hot");
